@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./css/mini_test.css">
+		<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/data.json"></script>
+		<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/Questiondata.js"></script>
+		<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/mini_test.js"></script>
+		<meta charset="UTF-8">
+    <title>湯米成語</title>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+	<a href="./mainMenu.html" class="active">首頁</a>
+	<div class="dropdown" style="float: left; width: 112px;">
+		<button onclick="dropdown" class="dropbtn" >成語小故事</button>
+		<div id="myDropdown" class="dropdown-content">
+		</div>
+	</div>
+	<a href="./mini_test.html">小測驗</a>
+	<a href="./User_Experience_Database.html">用戶體驗問卷</a>
+</div>
+    
+    <div class = "mainBlock">
+        <!-- Container for the image gallery -->
+        <h1 div class="headline">小測驗</h1>
+        <h2 div class="question" id="firstq">
+            question
+        </h2>
+
+        <div id='option1' style='padding: 10px;'>
+			<input type='radio' name='option' value='6/24' id='choice11' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            <label for='choice11' style=' padding: 5px; font-size: 25px;' id="choice1">
+              ANSWER 1</label>
+            <span id='choice1'></span>
+        </div>
+
+        <div id='option2' style='padding: 10px;'>
+			<input type='radio' name='option' value='6/24' id='choice22' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+			<label for='choice22' style=' padding: 5px; font-size: 25px;' id="choice2">
+			ANSWER 2</label>
+            <span id='choice2'></span>
+        </div>
+
+        <div id='option3' style='padding: 10px;'>
+			<input type='radio' name='option' value='6/24' id='choice33' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            <label for='choice33' style=' padding: 5px; font-size: 25px;' id="choice3">
+			ANSWER 3</label>
+            <span id='choice3'></span>
+        </div>
+
+        <div id='option4' style='padding: 10px;'>
+			<input type='radio' name='option' value='6/24' id='choice44' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            <label for='choice44' style=' padding: 5px; font-size: 25px;' id="choice4">
+			ANSWER 4</label>
+            <span id='choice4'></span>
+        </div>
+        <div id='Input_button'>
+            <input type="button" value="提交答案" Onclick="Enter_ans()">
+        </div>
+        <h4 div class="mainCenter" id="input">
+             
+        </h4>
+        <h4 div class="mainCenter" id="ans_output">
+
+        </h4>
+    </div>
+</body>
+
+</html>

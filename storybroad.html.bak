@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="./css/storybroad.css">
+	<script type="text/javascript" src="./js/data.json"></script>
+		<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/broadjavascript.js"></script>
+       <meta charset="UTF-8">
+    <title>湯米成語</title>
+</head>
+<body id=backgroundIndex>
+<div class="topnav" id="myTopnav">
+	<a href="./mainMenu.html" class="active">首頁</a>
+	<div class="dropdown" style="float: left; width: 112px;">
+		<button onclick="dropdown" class="dropbtn" >成語小故事</button>
+		<div id="myDropdown" class="dropdown-content">
+		</div>
+	</div>
+	<a href="#contact">聯繫西瓜</a>
+	<a href="#about">有關湯米</a>
+</div>
+</div>
+<h2 div class="center" id="topic">
+Topic</h2>
+
+<br>
+<h4 div class="mainCenter" id="intro">
+intro</h4>
+</div>
+<br>
+<h4 div class="mainCenter" id="content">
+content</h4>
+</div>
+<br>
+<div class="right" id="Video">
+<iframe id="videoPlayer" width="560" height="315" src="https://www.youtube.com/embed/GfHa9ge8wvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="./css/User_Experience_Database.css">
+   <script type="text/javascript" src="./js/data.json"></script>
+		<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/navjavascript.js"></script>
+	  <meta charset="UTF-8">
+	<script type="text/javascript" src="./js/User_experience_database.js"></script>
+	  <meta charset="UTF-8">
+    <title>湯米成語</title>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+	<a href="./mainMenu.html" class="active">首頁</a>
+	<div class="dropdown" style="float: left; width: 112px;">
+		<button onclick="dropdown" class="dropbtn" >成語小故事</button>
+		<div id="myDropdown" class="dropdown-content">
+		</div>
+	</div>
+    <a href="./mini_test.html">小測驗</a>
+    <a href="./User_Experience_Database.html">用戶體驗問卷</a>
+</div>
+
+
+  <!-- Container for the image gallery -->
+<div class="container">
+<div  class = "mainIntroBlock">
+    <h1>
+        用戶體驗問卷
+    </h3>
+    
+<form name="myform">
+    <table>
+      <tr>
+        <td>What is your name</td>
+        <td><Input name="Name" type="text" id="name"></td>    
+      </tr>
+      <tr>
+        <td>What is your gender: </td>
+        <td><Input name="Gender" type="text" id="gender"></td>    
+      </tr>
+      <tr>
+        <td>What can we improve the website: </td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <textarea rows=5 cols=50 id="improve"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>What is your feeling about this website: </td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <textarea rows=5 cols=50 id="feeling"></textarea>
+        </td>
+      </tr>
+    </table>
+    <input type="button" value="sumbit" onclick="userdata()">
+</form>
+</div>
+</div>
+</body>
+</html>

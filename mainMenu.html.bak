@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="./css/MainMenu.css">
+   <script type="text/javascript" src="./js/data.json"></script>
+		<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/navjavascript.js"></script>
+	<meta charset="UTF-8">
+    <title>湯米成語</title>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+	<a href="./mainMenu.html" class="active">首頁</a>
+	<div class="dropdown" style="float: left; width: 112px;">
+		<button onclick="dropdown" class="dropbtn" >成語小故事</button>
+		<div id="myDropdown" class="dropdown-content">
+		</div>
+	</div>
+	<a href="#contact">聯繫西瓜</a>
+	<a href="#about">有關湯米</a>
+</div>
+
+
+  <!-- Container for the image gallery -->
+<div class="container">
+<div  class = "mainIntroBlock">
+<h1 style="text-align: center">簡介</h1>
+<h3>
+成語（拼音：chéng yǔ，英文：idiom）是漢語詞彙中定型的詞。成語，眾人皆説，成之於語，故成語。成語多為四字，亦有三字，五字甚至七字以上。
+<br>
+<br>
+成語是漢字文化圈特有的語言形式，存在於漢語中，它是一個固定短語，表達了一個固定的語意，常帶有歷史故事及哲學意義。成語大多數由四個漢字組成，在文言文中使用廣泛，也有其他字數不等的成語，在白話文或者日常會話中也經常出現。
+<br>
+<br>
+成語是中國傳統文化的一大特色，有固定的結構形式和固定的説法，表示一定的意義，在語句中是作為一個整體來應用的，承擔主語、賓語、定語等成分。成語有很大一部分是從古代相承沿用下來的，它代表了一個故事或者典故。有些成語本就是一個微型的句子。 成語又是一種現成的話，跟習慣用語、諺語相近，但是也略有區別。
+<br>
+<br>
+成語之主要來源有中國古代神話故事（如：夸父追日、精衛填海、女媧補天等），中國古代寓言故事（如：刻舟求劍、狐假虎威、愚公移山等），中國古代歷史故事（如：刮目相看、紙上談兵、破釜沉舟等），中國古代文學作品（如：故弄玄虛，老驥伏櫪、青出於藍等），今人文學作品（塵埃落定等），外國故事（如：火中取栗、三隻小豬等）
+<br>
+</h3>
+</div>
+</div>
+</body>
+</html>
