@@ -1,11 +1,3 @@
-Project Name: Songs Database       
-GROUP Number: 3 
-
-GRUOP Leader :s12832089 *Li Ka Man
-GRUOP Member1:s12878817 Chan Ka He
-GRUOP Member2:s12874580 Mak Chun Wai<
-GRUOP Member3:s13121007 Woo host
-
 //the heroku for running the app  this link only can access before 28 th Novermber 2022
 https://s381projectsongsdatabase.herokuapp.com/ 
 
